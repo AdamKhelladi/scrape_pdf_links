@@ -31,6 +31,6 @@ def get_data():
       data = table.find("thead").find_all("th", {"headers": f"{year}"})
 
       for info in data: 
-        print(info.find("a").href)
+        print(info.find("a").href) 
     
 get_data()
