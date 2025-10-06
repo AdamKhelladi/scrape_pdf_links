@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 import pandas as pd
-
 import time
 import selenium
 
@@ -37,4 +36,5 @@ def get_data():
         print(info.find("a").href) 
     
 get_data()
+
 
