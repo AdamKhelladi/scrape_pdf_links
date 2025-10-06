@@ -36,5 +36,3 @@ def get_data():
         print(info.find("a").href) 
     
 get_data()
-
-
